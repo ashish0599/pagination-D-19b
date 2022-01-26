@@ -1,0 +1,48 @@
+body{
+    background:rgb(255, 255, 8);
+    background: radial-gradient(circle, rgb(173, 140, 151) 0%, rgba(148,187,233,1) 100%);
+  }
+  ul{
+    background-color: transparent;
+    box-shadow: rgba(207, 173, 173, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+  }
+  ul:hover{
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.123);
+  }
+  ul li{
+    padding: 7px;
+  }
+  h1{
+    color: rgba(73, 65, 65, 0.212);
+  }
+  nav{
+    display: inline-block;
+  }
+  input[type=button]{
+    font-size:small;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-radius: 8px;
+  }
+  input[type=button]:hover{
+    color: rgb(143, 122, 122);
+    background-color: rgba(121, 65, 153, 0.336);
+    padding: 15px;
+    cursor: pointer;
+  }
+  @media screen and (min-width:1020px) {
+  ul{
+    width:40rem;
+  }
+  input[type=button]{
+    font-size:large;
+    padding: 12px;
+  }
+  }
